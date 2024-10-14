@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/adaptive.css">
+
+  <title>pro.Exlusive</title>
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="#home" class="burger-menu__nav-item" onclick="navItem()">Главная</a></li>
+        <li><a href="#about" class="burger-menu__nav-item" onclick="navItem()">О нас</a></li>
+        <li><a href="#contact" class="burger-menu__nav-item" onclick="navItem()">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header" id="home">
+    <a href="#home" class="header-logo">pro.Exlusive</a>
+    <nav class="nav-menu header-nav-menu">
+      <ul class="nav-menu-list">
+        <li class="nav-menu__item"><a href="#home" class="nav-menu__link">Главная</a></li>
+        <li class="nav-menu__item"><a href="#about" class="nav-menu__link">О нас</a></li>
+        <li class="nav-menu__item"><a href="#contact" class="nav-menu__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="burger-button" onclick="openBurgerMenu()">
+      <span class="burger-button__span"></span>
+    </div>
+  </header>
+
+  <section class="section home-section">
+    <div class="info-container">
+      <h1 class="home-title">Продажа мировых брендов по привлекательной цене.</h1>
+      <h2 class="home-sub-title">Весь мир в кармане!</h2>
+      <a href="#contact" class="contact-btn">Связаться с нами</a>
+    </div>
+    <div class="hero">
+      <img src="../img/girl.jpg" alt="" class="hero__img" width="450px" height="720px">
+    </div>
+  </section>
+
+  <section class="section about-section" id="about">
+    <h2 class="section-title">О нас</h2>
+    <div class="text-info-container">
+
+      ▪︎Pro.Exlusive▪︎
+
+      <br>
+      <br>
+
+      Всем привет! Меня зовут Марина, и я - ваш проводник в мир эксклюзивной моды.
+
+      <br>
+      <br>
+
+      Вы наверняка замечали, как сложно найти качественный товар по адекватным ценам в России. И не не раз испытывали разочарование от покупок на маркетплейсах. А со мной вы можете одеваться в бренды, которые казались недоступными и не переплачивать за это! Как вам идея экономить в разы на брендах США и Европы? Представьте, что вы можете делать покупки разных и полюбившихся брендов, которые стали хитами и любят десятилетиями, не вставая с дивана. Такие, как Ralph Lauren, Max mara, Karl Lagerfeld, Tommi Hilfiger и т.д. Не только одежду, обувь сумки, галантерею, но и сопутствующие товары.
+      
+      <br>
+      <br>
+
+      Поэтому мой слоган: 
+      <br>
+      ◾ВЕСЬ МИР В КAРМАНЕ! 
+      <br>
+      <br>
+
+      <input type="checkbox" id="hd-1" class="hide">
+      <label for="hd-1">ОСОБЕННОСТЬ ГРУППЫ.</label> 
+      <div> 
+        Главная суть, в том, что у меня есть уникальная возможность сотрудничать с поставщиками (агентами) этих товаров, которые заявлены как оригинальный экспортный товар, в обход официалов. А так же реплики качества люкс 1:1, такое качество вы не увидите на садоводе. Особенность этих товаров, разумеется, очень вкусная и выгодная цена.
+      </div> 
+
+      <br>
+      <br>
+
+      <input type="checkbox" id="hd-2" class="hide">
+      <label for="hd-2">Подходим к главному, откуда такие цены?</label> 
+      <div>
+        ▪ В мире моды, текстильной индустрии и другой продукции. Китай стал центром производства. <br>
+        ▪︎ Не секрет, что 90% производства известных брендов перебрались в Китай из-за дешевой рабочей ставки и территорий для развития. <br>
+        ▪︎ Контроль качества на фабриках Китая аналогичен тому, что в Европейских странах, так и по всему миру. <br>
+        ▪︎ Так же все обращают внимание, что на этикетках по всему миру огромное количество товара сделано в Китае. <br>
+      </div>
+
+      <br>
+      <br>
+
+      <input type="checkbox" id="hd-3" class="hide">
+      <label for="hd-3">ОСНОВНЫЕ ПРИИМУЩЕСТВА.</label>
+      <div>
+        Товары для красоты, одежда, обувь, сумки - всё это можно найти здесь. На эти товары цены ниже, чем в брендовых магазинах любого города нашей страны.
+      </div>
+
+      <br>
+      <br>
+
+      <input type="checkbox" id="hd-4" class="hide">
+      <label for="hd-4">ВНИМАНИЕ!</label> 
+      <div>
+        Я работаю с остатками от производстаа известных брендов. Поясню, что это значит. Возможно, но необязательно, что товар может иметь незначительный дефект: неровный шов, отсутствие внутренней этикетки, карточки с ценой, как правило, так называемый брак, который не виден. Стандарты задаёт каждый именитый бренд для своего производства. Если обнаружили брак, то такой товар списывается брендом. Но китайцы быстро нашли выход из сложившийся ситуации, они находят посредников, кому сбыть даный товар. (вот с ними я имею возможность сотрудничать). Небольшие нюансы сопровождаются тем, что может отсутствовать коробка от обуви, очки без футляра, кофр для пальто и т.д. Но как правило это не влияет на итоговый результат. А есть супервыгода приобести товар известного бренда, по такой же супервыгодной цене!
+      </div>
+
+        <br>
+        <br>
+
+        Правила закупки:
+        <br>
+        <br>
+        
+        ✔ Выбирайте из предложенного ассортимента, который я тщательно отбираю. <br>
+        Так же будет предложено много сопутствующих товаров Noname, которые я сама опробовала и изучила. <br>
+        ✔ По части аналоговых моделей по лекалам - фабрика оставляет право за собой дорабатывать модель и частично видоизменять.
+        Такие нюансы не являются браком. <br>
+        ✔ Сроки доставки зависят от работы таможни и от доставки фабрики-производителя до нашего склада в России. <br>
+        ✔ Возврата и обмена нет. <br>
+
+        <br>
+        <br>
+
+        Все посылки застрахованы 
+
+        <br>
+        <br>
+
+        ПРИЯТНОГО И ВЫГОДНОГО ШОПИНГА
+        
+      </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="contact-container">
+      <h2 class="phone">Телефон: 8 902 858 40 42</h2>
+      <h2 class="telegramm"><a href="https://t.me/+Fsik1DpfFLxiYjcy" class="telegramm-link">Телеграмм-группа</a></h2>
+    </div>
+    <nav class="nav-menu">
+      <ul class="footer-nav-menu-list">
+        <li class="nav-menu__item nav-menu__item-footer"><a href="#home" class="nav-menu__link footer-nav-menu__link">Главная</a></li>
+        <li class="nav-menu__item nav-menu__item-footer"><a href="#about" class="nav-menu__link footer-nav-menu__link">О нас</a></li>
+        <li class="nav-menu__item nav-menu__item-footer"><a href="#contact" class="nav-menu__link footer-nav-menu__link">Контакты</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="../js/index.js"></script>
+</body>
+</html>
